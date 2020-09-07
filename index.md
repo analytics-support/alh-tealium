@@ -4,28 +4,8 @@ You can use the [editor on GitHub](https://github.com/analytics-support/alh-teal
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
 [Startseite](https://analytics-support.github.io/alh-tealium/landingALH.html) and ![Logo](https://analytics-support.github.io/alh-tealium/img/alh-hallesche-logo.png)
 [Seite 1](https://analytics-support.github.io/alh-tealium/alh-page1.html)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
