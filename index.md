@@ -23,8 +23,8 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Startseite](landingALH.html) and ![Logo](img/alh-hallesche-logo.png)
-[Seite 1](alh-page1.html)
+[Startseite](https://analytics-support.github.io/alh-tealium/landingALH.html) and ![Logo](https://analytics-support.github.io/alh-tealium/img/alh-hallesche-logo.png)
+[Seite 1](https://analytics-support.github.io/alh-tealium/alh-page1.html)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
