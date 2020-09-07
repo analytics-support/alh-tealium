@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ALH Testpage</title>
+	<meta name="description" content="testpage">
+	<meta name="author" content="test">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
+	<script src="http://www.geoplugin.net/javascript.gp"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://s3.amazonaws.com/stitch-sdks/js/bundles/4.0.8/stitch.js"></script>
+</head>
+<body> 
+
+<script type="text/javascript">
+var utag_data = {
+   'app_name': 'alh-web',
+   'client_device_geoloc_accuracy': '1200.4',
+   'client_device_geoloc_lat': '51.0',
+   'client_device_geoloc_lng': '-1.0',
+   'event_category': 'pageview',
+   'page_attributes_statusCode': '200',
+   'page_attributes_URL': window.document.location,
+   'page_category_level01': 'Versicherungen',
+   'page_category_level02': 'Berufsunf%C3%A4higkeit',
+   'page_organization_company': 'AL-Leben',
+   'page_organization_brand': 'Alte Leipziger',
+   'page_type': 'Produkt',
+   'user_accessMode': 'extern',
+   'user_loginStatus': 'anonymous'
+}
+</script>
+
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='//tags.tiqcdn.com/utag/al-h/main/dev/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+	<div class="mainWrapper">
+		<div id="main-text">
+			<p><img id="quote-left" class="quote-img" src="img/dq2.png"/>Seite 1 (Video)<img id="quote-right" class="quote-img" src="img/dq1.png" /></p>
+		</div>
+		<!-- Images to Replace -->
+		<div id="heavy-image" align="center">
+		<p>
+			<img id="heavy" class="quote-img" src="img/alh-hallesche-logo.png"/>
+		</p>
+		<p><br>^^^ AL-H Test Environment ^^^</br><br>&nbsp;</br></p>
+		<p><h2>Mit den Buttons unten können Analytics-Events ausgelöst werden.</h2><br>&nbsp;</br></p>
+		
+		</div>
+			
+		<div style="text-align: center;">
+			<iframe width="420" height="315" style="margin: auto" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+    </div>	
+		
+	</div>
+	</body>
+</html>
