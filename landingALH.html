@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ALH Testpage</title>
+	<meta name="description" content="testpage">
+	<meta name="author" content="test">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
+	<script src="http://www.geoplugin.net/javascript.gp"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://s3.amazonaws.com/stitch-sdks/js/bundles/4.0.8/stitch.js"></script>
+</head>
+<body> 
+
+<script type="text/javascript">
+var utag_data = {
+   'app_name': 'alh-web',
+   'client_device_geoloc_accuracy': '1200.4',
+   'client_device_geoloc_lat': '51.0',
+   'client_device_geoloc_lng': '-1.0',
+   'event_category': 'pageview',
+   'page_attributes_statusCode': '200',
+   'page_attributes_URL': 'http://uncda-dev-test.int.unic.com/landingALH.html',
+   'page_category_level01': 'Versicherungen',
+   'page_category_level02': 'Berufsunf%C3%A4higkeit',
+   'page_organization_company': 'AL-Leben',
+   'page_organization_brand': 'Alte Leipziger',
+   'page_type': 'Produkt',
+   'user_accessMode': 'extern',
+   'user_loginStatus': 'anonymous'
+}
+</script>
+
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='//tags.tiqcdn.com/utag/al-h/main/dev/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+	<div class="mainWrapper">
+		<div id="main-text">
+			<p><img id="quote-left" class="quote-img" src="img/dq2.png"/>Tealium Testseite<img id="quote-right" class="quote-img" src="img/dq1.png" /></p>
+		</div>
+		<!-- Images to Replace -->
+		<div id="heavy-image" align="center">
+		<p>
+			<img id="heavy" class="quote-img" src="http://www.alte-leipziger.de/alte_leipziger_logo.svg"/>
+			<img id="heavy" class="quote-img" src="http://www.hallesche.de/karriere-h/hallesche_logo.svg"/>
+		</p>
+		<p>
+			<img id="heavy" class="quote-img" src="http://www.alte-leipziger.de/al-gebaeude-518x170.jpg"/>
+		</p>
+		<p><br>^^^ AL-H Test Environment ^^^</br><br>&nbsp;</br></p>
+		</div>
+			
+			<a id="data-button-hello-external" class="myButton" data-et-detail="{&quot;event_category&quot;:&quot;clickout&quot;,&quot;event_effect&quot;:&quot;go-to&quot;}" href="https://www.instagram.com/alteleipziger_hallesche/?param1=test&param2=testo#anchor=fragment" target="_blank">Clickout Event
+			</a>
+			<a id="data-button-hello-external" href="#" class="myButton" onclick="utag.link({ 
+				   event_category: 'component',
+				   event_cause: 'click',
+				   event_effect: 'open',
+				   component_info_type: 'Bubble',
+				   component_info_id: 'smoope-trigger',
+				   component_info_name: 'Smoope Bubble',
+				   component_info_loc: 'footer'
+				});">Component Event
+			</a>
+			<a id="data-button-hello-external" href="#" class="myButton" onclick="utag.link({ 
+					event_category: 'conversion',
+					conversion_funnel_name: 'AL_FlexCash',
+					conversion_funnel_step: 'end',
+					conversion_funnel_step_completed: '5',
+					conversion_funnel_type: 'Online-Rechner',
+					conversion_info_class: '1',
+					conversion_info_name: 'AL-FlexCash',
+					conversion_info_value: '1234.99',
+					conversion_info_id: 'Xyz123',
+					conversion_info_sku: 'flexCash2019'
+				});">Conversion Event
+			</a>
+			
+			<a id="data-button-hello-external" href="https://www.instagram.com/alteleipziger_hallesche/?param1=test&param2=testo#anchor=fragment" class="myButton">Clickout VAST
+			</a>
+			<a id="data-button-hello-external" href="#" class="myButton" data-element-click= '{"event_category":"Test"}'>Data Attributes
+			</a>
+			<a id="data-button-hello-external" data-et-detail="{&quot;content_media_fileTitle&quot;:&quot;Presse-Information: Videoberatung&quot;,&quot;}" href="Testdokument_presse-information.pdf" class="myButton">Download
+			</a>
+			<div style="text-align: center;">
+			<iframe width="420" height="315" style="margin: auto"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+</div>
+			<!--
+			<a id="gtm-data-button-hello-external" href="#" class="myButton">Order Step 2</a>
+			
+			<a id="gtm-data-button-hello-external" href="#" class="myButton">Order Step 3</a>
+			-->
+			
+
+			
+		
+	</div>
+	</body>
+</html>
