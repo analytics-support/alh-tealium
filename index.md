@@ -3,8 +3,10 @@
 You can use the [editor on GitHub](https://github.com/analytics-support/alh-tealium/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Logo](https://analytics-support.github.io/alh-tealium/img/alh-hallesche-logo.png)
 
-[Startseite](https://analytics-support.github.io/alh-tealium/landingALH.html) and ![Logo](https://analytics-support.github.io/alh-tealium/img/alh-hallesche-logo.png)
+[Startseite](https://analytics-support.github.io/alh-tealium/landingALH.html) 
+
 [Seite 1](https://analytics-support.github.io/alh-tealium/alh-page1.html)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
