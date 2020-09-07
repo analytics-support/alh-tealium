@@ -47,9 +47,9 @@ __This will also be bold__
 _You **can** combine them_
 
 Headers
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# This is an "<h1>" tag
+## This is an "<h2>" tag
+###### This is an "<h6>" tag
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
