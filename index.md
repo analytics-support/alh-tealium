@@ -23,8 +23,8 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Startseite](/landingALH.html) and ![Logo](img/alh-hallesche-logo.png)
-[Seite 1](/alh-page1.html)
+[Startseite](landingALH.html) and ![Logo](img/alh-hallesche-logo.png)
+[Seite 1](alh-page1.html)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
