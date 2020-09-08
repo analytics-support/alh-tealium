@@ -8,8 +8,8 @@ Jeder Teilnehmer kriegt ein Tealium-Profil zugewiesen. Deshalb muss diese Site f
 unic-training/training01-userXX
 
 XX durch 01, 02, 03 etc. ersetzen:
-unic-training/training01-user01
-unic-training/training01-user02
-unic-training/training01-user03
-unic-training/training01-user04
-unic-training/training01-user05
+* unic-training/training01-user01
+* unic-training/training01-user02
+* unic-training/training01-user03
+* unic-training/training01-user04
+* unic-training/training01-user05
