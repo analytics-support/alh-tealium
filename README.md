@@ -13,3 +13,14 @@ XX durch 01, 02, 03 etc. ersetzen:
 * unic-training/training01-user03
 * unic-training/training01-user04
 * unic-training/training01-user05
+
+## Pfad zur HTML-Startseite
+https://analytics-support.github.io/training01-user01/landingALH.html
+https://analytics-support.github.io/training01-user02/landingALH.html
+https://analytics-support.github.io/training01-user03/landingALH.html
+https://analytics-support.github.io/training01-user04/landingALH.html
+https://analytics-support.github.io/training01-user05/landingALH.html
+
+(Pfad in der Vorlage: https://analytics-support.github.io/alh-tealium/landingALH.html)
+
+
