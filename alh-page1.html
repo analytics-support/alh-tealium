@@ -14,12 +14,10 @@
 </head>
 <body> 
 
+<!-- Custom Data Layer -->
 <script type="text/javascript">
 var utag_data = {
    'app_name': 'alh-web',
-   'client_device_geoloc_accuracy': '1200.4',
-   'client_device_geoloc_lat': '51.0',
-   'client_device_geoloc_lng': '-1.0',
    'event_category': 'pageview',
    'page_attributes_statusCode': '200',
    'page_attributes_URL': window.document.location,
@@ -34,13 +32,8 @@ var utag_data = {
 </script>
 
 <!-- Loading script asynchronously -->
-<script type="text/javascript">
-    (function(a,b,c,d){
-    a='//tags.tiqcdn.com/utag/al-h/main/dev/utag.js';
-    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
-    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
-    })();
-</script>
+<script type="text/javascript" src="utag-js-include.js"></script>
+	
 	<div class="mainWrapper">
 		<div id="main-text">
 			<p><img id="quote-left" class="quote-img" src="img/dq2.png"/>Seite 1 (Video)<img id="quote-right" class="quote-img" src="img/dq1.png" /></p>
